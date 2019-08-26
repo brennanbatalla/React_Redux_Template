@@ -2,6 +2,7 @@ import {createMuiTheme} from '@material-ui/core/styles';
 
 export const Custom_Theme = createMuiTheme(
     {
+
         palette: {
             primary: {
                 // light: will be calculated from palette.primary.main,
@@ -16,12 +17,8 @@ export const Custom_Theme = createMuiTheme(
             }
         },
         typography: {
-            // Use the system font instead of the default Roboto font.
-            fontFamily: [
-                'filson-soft'
-            ].join(','),
-            fontSize: 14
-        }
+            useNextVariants: true,
+        },
     }
 );
 

@@ -5,7 +5,7 @@ class HomePage extends Component {
 
     state = {};
 
-    componentWillMount() {}
+    componentDidMount() {}
 
     render() {
 
